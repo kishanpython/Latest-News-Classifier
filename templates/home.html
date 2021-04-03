@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inshort News Classifier</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" sizes="192x192" href="https://assets.inshorts.com/website_assets/images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <br>  <br>  <br> 
+<center><h1>🅸🅽🆂🅷🅾🆁🆃 🅽🅴🆆🆂 🅲🅻🅰🆂🆂🅸🅵🅸🅴🆁</h1></center><br><br>
+<div class="container-fluid">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-4">
+        <div class="container">
+          <ul class="list-group">
+            <b><li class="list-group-item active" style="text-transform:uppercase;">Prediction Category</li></b>
+            <li class="list-group-item">1. Politics</li>
+            <li class="list-group-item">2. Entertainment</li>
+            <li class="list-group-item">3. Technology</li>
+            <li class="list-group-item">4. Sports</li>
+            <li class="list-group-item">5. Others</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-4"><br><br>
+              <div class="container">
+                <center><img src="./static/Inshorts.png" class="img-fluid img-thumbnail" style="width: 280px; height: 180px" alt="Inshort Image"></center><br>
+                <div> 
+                <form  action="/real_time_data" >
+                  <div >
+                      <button type="submit" class="btn btn-primary btn-lg btn-block" value='RT'>REAL TIME DATA</button>
+                    </div><br><br>
+                  </form>
+                </div>
+                <div>
+                  <form action="/mix_data" >
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block"  value='MX'>MIX DATA</button><br>
+                    </div>
+                </form>
+              </div>   
+          </div>
+        </div>
+
+      <div class="col-sm-3 col-md-4">
+          <div class="container">
+            <form method="post" action="/custom_input" >
+               <textarea class="form-control" rows="6" cols="50" aria-label="With textarea" name='custom_text' placeholder='write here...' required="true"></textarea><br>
+                <button type="submit" class="btn btn-primary btn-lg btn-block" name="submit_button" value='CD'>CUSTOM DATA</button>
+              </form>
+          </div><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
