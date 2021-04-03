@@ -5,8 +5,15 @@ This is achieved with a **supervised machine learning classification model** tha
 
 The web application can be used at https://inshort-news.herokuapp.com/. Please consider that a live web-scraping process is carried out every time you run the app, so there may be some crashes due to the failing status of some requests.
 
-Credits:- 
+**News Categories**:-
+1. Politics
+2. Entertainment
+3. Technology
+4. Sports
+5. Others
+
+**Dataset**:- 
+1. Inshorts News Dataset:- https://github.com/kishanpython/Inshorts-News-Data-Collection
+
+**Credits**:- 
 1. Inshort News App :- https://inshorts.com/en/read
-
-
-
