@@ -1,5 +1,5 @@
 # Latest-News-Classifier
-<img src="/assets/demo.png" width="500" height="300" />
+<img src="/static/demo.png" width="500" height="300" />
 This project is intended to be a walkthrough on the development of a **machine learning project from end to end**. It covers the creation a real-time web application that gathers data from inshort news app and shows a summary of the different topics that are being treated in the news articles.
 
 This is achieved with a **supervised machine learning classification model** that is able to predict the category of a given news article, a web scraping method that gets the latest news from the inshort news app, and an interactive web application that shows the obtained results to the user.
