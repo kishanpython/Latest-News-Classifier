@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'inshorts-news'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F5EA608F5A3412D92E1751FFC46A89B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2D5DD7B6AA9942CFABC2A1A68EE50318 }}
